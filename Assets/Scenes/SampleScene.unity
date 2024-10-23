@@ -189,7 +189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96b79c514f4272542b84fcf6f8009114, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <GoalItemsCount>k__BackingField: 2
+  <GoalItemsCount>k__BackingField: 9
 --- !u!1 &295997254
 GameObject:
   m_ObjectHideFlags: 0
@@ -230,7 +230,7 @@ CharacterController:
   m_Height: 2
   m_Radius: 0.5
   m_SlopeLimit: 45
-  m_StepOffset: 0.3
+  m_StepOffset: 0
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
