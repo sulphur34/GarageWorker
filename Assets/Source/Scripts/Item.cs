@@ -1,4 +1,5 @@
 using System;
+using Source.Scripts;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
@@ -33,5 +34,6 @@ public class Item : MonoBehaviour, IItemStatus
         _rigidbody.useGravity = !isPicked;
         _rigidbody.isKinematic = isPicked;
         IsPicked = isPicked;
+        gameObject.layer = isPicked ? (int)LayersNames.Pickup : (int)LayersNames.Default;
     }
 }

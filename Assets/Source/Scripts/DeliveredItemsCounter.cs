@@ -36,8 +36,10 @@ public class DeliveredItemsCounter : MonoBehaviour
     {
         if (other.TryGetComponent<IItemStatus>(out var itemStatus) != null)
         {
-            itemStatus.Dropped -= OnItemDropped;
-            _deliveredItemsCount--;
+            if (itemStatus.IsPicked)
+                itemStatus.Dropped -= OnItemDropped;
+            else
+                _deliveredItemsCount--;
         }
     }
 
