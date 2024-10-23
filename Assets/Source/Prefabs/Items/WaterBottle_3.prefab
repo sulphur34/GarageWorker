@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 4616403293481629799}
   - component: {fileID: 6632995458104168232}
   - component: {fileID: 6104597350564244568}
+  - component: {fileID: 5458695399760288054}
+  - component: {fileID: 733540573015394548}
   m_Layer: 0
   m_Name: WaterBottle_3
   m_TagString: Untagged
@@ -113,3 +115,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!64 &5458695399760288054
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7020499831926396804}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6948493338997521542, guid: bbcdff1613c64434f88a98f5802e6044, type: 3}
+--- !u!114 &733540573015394548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7020499831926396804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b5ce0d723f4595468b89ccdd14c238c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
